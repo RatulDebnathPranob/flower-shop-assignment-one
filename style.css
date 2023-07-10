@@ -26,10 +26,11 @@
     background-color: #E55473;
     color: white;
     height: 60px;
-    width: 160px;
+    width: 155px;
     border-radius: 8px;
-    padding: 20px 42px;
+    padding: 20px 40px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* main style start */
@@ -70,6 +71,10 @@
     color: rgba(39, 39, 39, 0.60);
 }
 
+span {
+    color: #E55473;
+}
+
 /* instagram section */
 .instagram-container {
     text-align: center;
@@ -106,17 +111,107 @@
     height: auto;
     object-fit: cover;
 }
+
 /* Latest deals */
-.latest-deals{
+.latest-deals {
     background-image: url('Flower Asset/Rectangle\ 9.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
-    text-align: center;
     margin: 90px;
-    
-}
-.deals-info{
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+}
+
+.latest-deals h1 {
+    margin-bottom: 20px;
+
+}
+
+.latest-deals .deals-info {
+    margin-bottom: 50px;
+}
+
+.latest-deals p {
+    color: rgba(39, 39, 39, 0.60);
+}
+
+.latest-deals input[type="email"] {
+    width: 600px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+
+
+
+/* .latest-deals {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+    background-image: url('your-image-url.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .latest-deals .deals-info {
+    margin-bottom: 20px;
+  }
+  
+  .latest-deals h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .latest-deals p {
+    font-size: 16px;
+  }
+  
+  .latest-deals input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .latest-deals button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .latest-deals button:hover {
+    background-color: #45a049;
+  }
+   */
+
+/* footer section */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #111010;
+    color: white;
+    height: 400px;
+}
+.footer-container h1{
+    padding: 30px;
+}
+.copyright{
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.40);
 }
