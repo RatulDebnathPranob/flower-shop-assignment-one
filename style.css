@@ -7,7 +7,7 @@
     background-color: #3D3434;
     justify-content: space-around;
     align-items: center;
-    height: 150px;
+    height: 130px;
 }
 .nav-containetr a{
     list-style: none;
@@ -21,15 +21,13 @@
     font-weight: 900;
 }
 
-
-
 /* banner section */
 .banner-container {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background: rgba(229, 84, 115, 0.10);
-    padding: 100px;
+    padding: 100px 80px 0px 80px;
 
 }
 
@@ -53,15 +51,13 @@
     padding: 20px 40px;
     font-weight: 700;
     cursor: pointer;
+    border: none;
 }
 
 /* main style start */
 .feature-container {
     text-align: center;
     padding: 100px 0px 40px 0px;
-    /* background-color: aquamarine;
-    width: 500px;
-    height: 150px; */
     background-color: white;
     align-items: center;
 
@@ -123,7 +119,7 @@ span {
     object-fit: cover;
 }
 
-/* Latest deals */
+/* Latest deals section */
 .latest-deals {
     background-image: url('Flower Asset/Rectangle\ 9.png');
     background-position: center;
@@ -159,55 +155,6 @@ span {
     margin-right: 30px;
     border-radius: 8px;
 }
-
-
-
-
-/* .latest-deals {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-    background-image: url('your-image-url.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  
-  .latest-deals .deals-info {
-    margin-bottom: 20px;
-  }
-  
-  .latest-deals h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .latest-deals p {
-    font-size: 16px;
-  }
-  
-  .latest-deals input[type="email"] {
-    padding: 10px;
-    margin-bottom: 10px;
-    width: 300px;
-  }
-  
-  .latest-deals button {
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  .latest-deals button:hover {
-    background-color: #45a049;
-  }
-   */
 
 /* footer section */
 .footer-container {
