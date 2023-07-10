@@ -1,7 +1,29 @@
 * {
     margin: 0px;
 }
+/* nav section */
+.nav-containetr{
+    display: flex;
+    background-color: #3D3434;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.nav-containetr a{
+    list-style: none;
+    text-decoration: none;
+    
+}
+.nav-containetr li{
+    display: inline;
+    padding-right: 50px;
+    color: white;
+    font-weight: 900;
+}
 
+
+
+/* banner section */
 .banner-container {
     display: flex;
     justify-content: space-around;
@@ -89,17 +111,6 @@ span {
 }
 
 /* images section  */
-/* .images-container {
-    display: flex;
-    width: 50%;
-    gap: 24px;
-    padding: 0px 100px 0px 100px;
-}
-
-.image {
-    width: 302px;
-    height: 306px;
-} */
 .image-container {
     display: flex;
     gap: 25px;
