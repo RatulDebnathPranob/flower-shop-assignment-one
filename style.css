@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(229, 84, 115, 0.10);
+    padding: 100px;
+    
+}
+.banner-info{
+    width: 50%;
+    padding-left: 40px;
+}
+.banner-details{
+    width: 60%;
+    padding: 35px 0px 35px 0px;
+    color: rgba(39, 39, 39, 0.60);
+}
+.btn-primary{
+    background-color: #E55473;
+    color: white;
+    height: 60px;
+    width: 160px;
+    border-radius: 8px;
+    padding: 20px 42px;
+    font-weight: 700;
+}
+/* main style start */
+.feature-container{
+    text-align: center;
+    padding: 100px 0px 40px 0px;
+
+}
+.feature-container-details{
+    padding-top: 25px;
+
+}
