@@ -70,6 +70,7 @@
     color: rgba(39, 39, 39, 0.60);
 
 }
+/* flower and background section */
 
 /* hot deal section  */
 .deal-container {
@@ -77,7 +78,6 @@
     align-items: center;
     justify-content: space-evenly;
     background-color: rgba(229, 84, 115, 0.05);
-    ;
     border-radius: 8px;
     padding: 50px 0px 50px 0px;
 }
@@ -89,6 +89,8 @@
 .deal-details {
     padding: 25px 35px;
     color: rgba(39, 39, 39, 0.60);
+    max-width: 60%;
+    margin: auto;
 }
 
 span {
@@ -99,7 +101,7 @@ span {
 .instagram-container {
     text-align: center;
     padding: 120px;
-    height: 10px;
+    height: 40px;
     max-width: 50%;
     background-color:white;
     margin: 0px auto;
