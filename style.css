@@ -57,9 +57,11 @@
 /* main style start */
 .feature-container {
     text-align: center;
-    padding: 100px 0px 40px 0px;
-    background-color: white;
-    align-items: center;
+    padding: 100px;
+    background-color:white;
+    max-width: 50%;
+    margin: 0px auto;
+    
 
 }
 
@@ -96,8 +98,11 @@ span {
 /* instagram section */
 .instagram-container {
     text-align: center;
-    padding: 120px 0px;
+    padding: 120px;
     height: 10px;
+    max-width: 50%;
+    background-color:white;
+    margin: 0px auto;
 
 }
 
@@ -168,6 +173,10 @@ span {
 }
 .footer-container h1{
     padding: 30px;
+}
+.footer-container p{
+    max-width: 50%;
+    text-align: center;
 }
 .copyright{
     padding-top: 30px;
